@@ -2,7 +2,14 @@
 
 <a href="https://github.com/yieldgroup/style-serializer/actions"><img alt="Build Status" src="https://github.com/yieldgroup/style-serializer/workflows/Build/badge.svg?color=green" /></a><img src="https://img.shields.io/david/yieldgroup/style-serializer.svg" /> <a href="https://david-dm.org/yieldgroup/style-serializer?type=dev"><img src="https://img.shields.io/david/dev/yieldgroup/style-serializer.svg" /></a><img src="https://api.dependabot.com/badges/status?host=github&repo=yieldgroup/style-serializer" />
 
-StyleSerializer is a tiny library with just two functions: `cssStringToObject` and `cssObjectToString`. The first, `cssStringToObject`, makes it easy to convert strings like `"border-top: 1px solid red; width: 100px;"` into a JavScript object literal like `{borderTop: "1px solid red", width: "100px" }`. You can reverse the process with `cssObjectToString`.
+StyleSerializer is a tiny library with just two functions: `cssStringToObject` and `cssObjectToString`.
+
+The first, `cssStringToObject`, makes it easy to convert strings like `"border-top: 1px solid red; width: 100px;"` into a JavScript object literal like `{borderTop: "1px solid red", width: "100px" }`.
+
+You can reverse the process with `cssObjectToString`.
+
+Checkout [a little demo](https://yieldgroup.github.io/style-serializer/) if you'd like to try it out.
+
 
 ## 📦 Getting Started
 

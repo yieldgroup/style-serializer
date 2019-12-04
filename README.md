@@ -1,17 +1,21 @@
 ## 🥰 StyleSerializer
 
+<a href="https://github.com/yieldgroup/style-serializer/actions"><img alt="Build Status" src="https://github.com/yieldgroup/style-serializer/workflows/Build/badge.svg?color=green" /></a><img src="https://img.shields.io/david/yieldgroup/style-serializer.svg" /> <a href="https://david-dm.org/yieldgroup/style-serializer?type=dev"><img src="https://img.shields.io/david/dev/yieldgroup/style-serializer.svg" /></a><img src="https://api.dependabot.com/badges/status?host=github&repo=yieldgroup/style-serializer" />
+
 StyleSerializer is a tiny library with just two functions: `cssStringToObject` and `cssObjectToString`. The first, `cssStringToObject`, makes it easy to convert strings like `"border-top: 1px solid red; width: 100px;"` into a JavScript object literal like `{borderTop: "1px solid red", width: "100px" }`. You can reverse the process with `cssObjectToString`.
 
 ## 📦 Getting Started
 
 ### Installation
-StyleSerializer is distributed using the Universal Module Definition (UMD) pattern, so it will work in browsers as well as server-side. Add it to your project with 
+
+StyleSerializer is distributed using the Universal Module Definition (UMD) pattern, so it will work in browsers as well as server-side. Add it to your project with
 
 ```
 yarn add style-serializer
 ```
 
 ### Using `import`
+
 If you're using Webpack or a similar tool that supports `import`, you can import the individual methods:
 
 ```js
@@ -29,6 +33,7 @@ StyleSerializer.cssObjectToString(yourObject);
 ```
 
 ### Using in a browser
+
 Some users may need to use this outside of build tools like Webpack. If you'd like a global variable, you can load the `build/index.js` via script tag and access the methods from `window.StyleSerializer`.
 
 ```html
@@ -40,7 +45,7 @@ Some users may need to use this outside of build tools like Webpack. If you'd li
 
 ## ⭐️ Documentation
 
-It's really simple! 
+It's really simple!
 
 ### `cssStringToObject`
 
@@ -70,7 +75,7 @@ cssStringToObject("border-top: 1px solid red; width: 100px;", { useCamelCase: fa
 cssObjectToString({
   border: "1px solid red",
   width: "100px"
-})
+});
 // returns a string
 "border: 1px solid red; width: 100px;"
 ```
@@ -82,5 +87,3 @@ This was built by the team at <a href="https://yieldgroup.co">Yield Group</a>. W
 This project used [@hogdef's JS lib boilerplate](https://github.com/hodgef/js-library-boilerplate-basic) to handle initial setup. It's really nice, check it out.
 
 This project is licenced under the MIT License, see LICENSE for more details. Copyright (c) 2019 Yield Group
-
-

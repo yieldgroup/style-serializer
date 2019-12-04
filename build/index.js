@@ -1,7 +1,7 @@
 /*!
  * 
  *   @yieldgroup/style-serializer v0.0.1
- *   undefined
+ *   https://github.com/yieldgroup/style-serializer
  * 
  *   Copyright (c) Mason Stewart (https://github.com/yieldgroup)
  * 

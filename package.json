@@ -9,10 +9,10 @@
     "prepare": "npm run build",
     "trypublish": "npm publish || true"
   },
-- "repository": {
--   "type": "git",
--   "url":  "https://github.com/yieldgroup/style-serializer"
-- },
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/yieldgroup/style-serializer"
+  },
   "author": "Mason Stewart <434750+masondesu@users.noreply.github.com> (https://github.com/yieldgroup)",
   "license": "MIT",
   "bugs": {
